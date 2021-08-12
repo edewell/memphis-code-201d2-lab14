@@ -1,0 +1,12 @@
+Your task is to bring functionality to an order form page and a shopping cart page.
+
+
+1. There are multiple .js files
+1. `cart.js` is used on the cart page and `catalog.js` is used on the page with the form
+1. The `app.js` file carries some global variables that the others will reference, and is loaded into both pages
+1. You will encounter and need to deal with a new type of form element
+1. You will need to reference elements without IDs === 
+
+
+what things do i need in my cart?
+    i need the 
