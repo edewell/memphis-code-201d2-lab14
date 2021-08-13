@@ -5,17 +5,19 @@ const Cart = function(items) {
   // this.items is an array of CartItem instances.
   this.items = items;
 };
+// add this method to the class to update the counter 
+
 
 Cart.prototype.addItem = function(product, quantity) {
   // TODO: Fill in this instance method to create a new CartItem and add it to this site !
-  const newItem = new CartItem(product, quantity);
-  this.items.push()
+  const newCartItem = new CartItem(product, quantity); //this creates a new instance of the CartItem!
+  this.items.push()     // this add the instances to the site
 };
 
 
 Cart.prototype.saveToLocalStorage = function() {
   // TODO: Fill in this instance method to save the contents of the cart to localStorage
-  const localStorage = JSON.stringify(this.items);
+  localStorage.setItem('cart', JSON.stringify(this.items));
   // local storage
 };
 

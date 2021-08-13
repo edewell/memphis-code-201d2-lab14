@@ -8,5 +8,4 @@ Your task is to bring functionality to an order form page and a shopping cart pa
 1. You will need to reference elements without IDs === 
 
 
-what things do i need in my cart?
-    i need the 
+got the drop down thingy working. loops are working fine things are getting stored in memory
