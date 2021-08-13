@@ -13,7 +13,7 @@ function populateForm() {
   const selectElement = document.getElementById('items');
   for (let i = 0; i < Product.allProducts.length; i++) {
     let optionTag = document.createElement('option');
-      optionTag
+      optionTag 
   }
 
 }
@@ -24,7 +24,7 @@ function populateForm() {
 function handleSubmit(event) {
 
   // TODO: Prevent the page from reloading
-
+  
   // Do all the things ...
   addSelectedItemToCart();
   cart.saveToLocalStorage();
