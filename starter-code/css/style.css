@@ -8,12 +8,14 @@ h1{
     font-size: 40px;
     font-family: monospace;
     color: black;
+    text-align: center;
 }
 
 li{
     font-size: 25px;
     font-family: monospace;
     color: blue;
+    text-align: center;
     
 }
 
@@ -21,10 +23,30 @@ ol{
     font-size: 20px;
     font-family: monospace;
     color: blue;
+    text-align: center;
 }
 
 span{
     font-size: 20px;
     font-family: monospace;
     color: blue;
+    text-align: right;
+}
+
+form{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+input{
+    list-style: initial;
+}
+
+footer{
+    position: sticky;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: right;
 }

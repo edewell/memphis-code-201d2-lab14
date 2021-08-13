@@ -76,3 +76,9 @@ span{
     font-family: monospace;
     color: blue;
 }
+
+th{
+	font-size: 20px;
+	font-family: monospace;
+	color: black;
+}
